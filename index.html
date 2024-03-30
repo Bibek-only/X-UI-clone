@@ -14,7 +14,7 @@
     <div class="container mx-auto flex">
       <div class="first w-full flex flex-col items-center">
         <div class="side-bar flex flex-col">
-          <div class="logo invert my-3">
+          <div class="logo invert my-3 ml-3">
             <svg
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -27,50 +27,181 @@
               </g>
             </svg>
           </div>
-          <ul class="flex flex-col  text-2xl ">
+          <ul class="flex flex-col text-1.5xl">
             <li
-              class="flex items-center gap-5 text-3xl px-3 py-3 hover:bg-gray-900 hover:rounded-3xl font-bold"
+              class="flex items-center gap-5 text-2xl px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200 font-bold"
             >
-              <span class="material-symbols-outlined text-4xl"> home </span> Home
+              <span class="material-symbols-outlined text-4xl"> home </span>
+              Home
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> search </span> Explore
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl"> search </span>
+              Explore
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> notifications </span>
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl">
+                notifications
+              </span>
               Notification
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> mail </span> Message
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl"> mail </span>
+              Message
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> note_alt </span> Grok
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl"> note_alt </span>
+              Grok
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> list_alt </span> List
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl"> list_alt </span>
+              List
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> bookmark </span> Bookmark
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl"> bookmark </span>
+              Bookmark
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> group_add </span>
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl">
+                group_add
+              </span>
               Community
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> workspace_premium </span>
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl">
+                workspace_premium
+              </span>
               Premium
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> person </span> Profile
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl"> person </span>
+              Profile
             </li>
-            <li class="flex items-center gap-5 px-3 py-3 hover:bg-gray-900 hover:rounded-3xl">
-              <span class="material-symbols-outlined text-3xl"> more_horiz </span> More
+            <li
+              class="flex items-center gap-5 px-3 py-3 hover:bg-[#16181c] hover:rounded-3xl duration-200"
+            >
+              <span class="material-symbols-outlined text-3xl">
+                more_horiz
+              </span>
+              More
             </li>
           </ul>
         </div>
       </div>
       <div class="second w-full border-l-2 border-r-2 border-white">s</div>
-      <div class="third w-full">s</div>
+      <div class="third w-full flex flex-col items-start">
+        <div
+          class="search-box w-9/12 flex items-center justify-start gap-4 rounded-full border border-blue-600 bg-[#16181c] ml-8 mt-3 p-1 pl-5"
+        >
+          <span class="material-symbols-outlined text-3xl text-blue-600">
+            search
+          </span>
+          <input type="text" class="w-max outline-none bg-[#16181c]" />
+        </div>
+        <div
+          class="premium w-9/12 bg-[#16181c] ml-8 mt-5 rounded-2xl p-2 pl-5 flex flex-col gap-3 items-start"
+        >
+          <h1 class="font-bold text-xl">Subscribe to Premium</h1>
+          <p class="font-bold">
+            Subscribe to unlock new features and if eligible, receive a share of
+            ads revenue.
+          </p>
+          <button class="bg-blue-600 rounded-full p-2 px-3 font-bold">
+            Subscirbe
+          </button>
+        </div>
+        <div class="what w-9/12 bg-[#16181c] ml-8 mt-5 rounded-2xl">
+          <h1 class="font-bold text-xl mt-3 ml-5">What’s happening</h1>
+          <div
+            class="card flex items-center justify-between w-full mt-3 duration-200 hover:bg-[#3C3C3C] pl-5 pr-3 py-1"
+          >
+            <div class="left-part flex flex-col">
+              <div class="title text-xs">Trending in India</div>
+              <div class="has-tag font-bold">#ManishaRani</div>
+              <div class="count text-xs">19K posts</div>
+            </div>
+            <div class="right-part flex justify-start items-center">
+              <span class="material-symbols-outlined text-s"> more_horiz </span>
+            </div>
+          </div>
+          <div
+            class="card flex items-center justify-between w-full mt-3 duration-200 hover:bg-[#3C3C3C] pl-5 pr-3 py-1"
+          >
+            <div class="left-part flex flex-col">
+              <div class="title text-xs">Trending in India</div>
+              <div class="has-tag font-bold">#ManishaRani</div>
+              <div class="count text-xs">19K posts</div>
+            </div>
+            <div class="right-part flex justify-start items-center">
+              <span class="material-symbols-outlined text-s"> more_horiz </span>
+            </div>
+          </div>
+          <div
+            class="card flex items-center justify-between w-full mt-3 duration-200 hover:bg-[#3C3C3C] pl-5 pr-3 py-1"
+          >
+            <div class="left-part flex flex-col">
+              <div class="title text-xs">Trending in India</div>
+              <div class="has-tag font-bold">#ManishaRani</div>
+              <div class="count text-xs">19K posts</div>
+            </div>
+            <div class="right-part flex justify-start items-center">
+              <span class="material-symbols-outlined text-s"> more_horiz </span>
+            </div>
+          </div>
+          <div
+            class="card flex items-center justify-between w-full mt-3 duration-200 hover:bg-[#3C3C3C] pl-5 pr-3 py-1"
+          >
+            <div class="left-part flex flex-col">
+              <div class="title text-xs">Trending in India</div>
+              <div class="has-tag font-bold">#ManishaRani</div>
+              <div class="count text-xs">19K posts</div>
+            </div>
+            <div class="right-part flex justify-start items-center">
+              <span class="material-symbols-outlined text-s"> more_horiz </span>
+            </div>
+          </div>
+          <div
+            class="card flex items-center justify-between w-full mt-3 duration-200 hover:bg-[#3C3C3C] pl-5 pr-3 py-1"
+          >
+            <div class="left-part flex flex-col">
+              <div class="title text-xs">Trending in India</div>
+              <div class="has-tag font-bold">#ManishaRani</div>
+              <div class="count text-xs">19K posts</div>
+            </div>
+            <div class="right-part flex justify-start items-center">
+              <span class="material-symbols-outlined text-s"> more_horiz </span>
+            </div>
+          </div>
+          <p class="ml-5 my-5 text-blue-600">show more</p>
+        </div>
+        <div
+          class="who duration-200 hover:bg-[#3C3C3C] pl-5 pr-3 py-1llow what w-9/12 bg-green-200 ml-8 mt-5 rounded-2xl"
+        >
+          <h1>Who to follow</h1>
+        </div>
+        <div
+          class="footer follow what w-9/12 bg-green-200 ml-8 mt-3 rounded-2xl"
+        >
+          footer
+        </div>
+      </div>
     </div>
   </body>
 </html>
